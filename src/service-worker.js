@@ -1,6 +1,6 @@
 for (var i = 0; i < self.__precacheManifest.length; i++) {
 	console.log(self.__precacheManifest[i].url);
-	if (self.__precacheManifest[i].url != './web.config') {
+	if (self.__precacheManifest[i].url !== '/web.config') {
 		self.__precacheManifest = [].concat(self.__precacheManifest || []);
 	}
 }
